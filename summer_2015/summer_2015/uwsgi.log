@@ -1,0 +1,21 @@
+*** Starting uWSGI 2.0.9 (64bit) on [Tue Jun 23 18:20:27 2015] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-11) on 23 April 2015 19:31:15
+os: Linux-2.6.32-431.23.3.el6.x86_64 #1 SMP Thu Jul 31 17:20:51 UTC 2014
+nodename: iZ251ltv9suZ
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /summer/summer/summer_2015/summer_2015
+detected binary path: /usr/sbin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /summer/summer/summer_2015
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 14846
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:80).
+bind(): Address already in use [core/socket.c line 764]
